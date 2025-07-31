@@ -15,6 +15,6 @@ This repository contains my resume in Markdown format, styled with a custom CSS 
 You can easily view, style, and export your resume using [OhMyCV.app](https://ohmycv.app):
 
 1. Go to [https://ohmycv.app](https://ohmycv.app)
-2. Upload or import your `my-resume.md` file.
-3. (Optional) Apply your custom CSS (`my-resume.css`) if the app supports it.
-4. Preview your resume in the browser or export it as PDF.
+2. Upload or import `my-resume.md` file.
+3. (Optional) Apply custom CSS (`my-resume.css`).
+4. Preview the resume in the browser or export it as PDF.
