@@ -42,8 +42,8 @@ Software Engineer with 8+ years of experience architecting and scaling backend s
 **Nusantara Baskara Jaya**, Jakarta <span class="float-right"> –</span>  
 **Backend Web Developer**
 - Developed and maintained multiple web applications for Telkomsel clients using Ruby on Rails, Laravel, and CodeIgniter.
-- Integrated BNI payment gateway for the "I Loop Run 2019" event, successfully processing **[Number]** of transactions over the event period.
-- Engineered and launched a secure login with OTP via email for the Ilmupedia platform, enhancing user account security for over **[Number]** of users.
+- Integrated BNI payment gateway for the "I Loop Run 2019" event.
+- Engineered and launched a secure login with OTP via email for the Ilmupedia platform.
 
 ## Education
 
