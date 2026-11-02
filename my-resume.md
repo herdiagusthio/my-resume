@@ -7,45 +7,50 @@ header:
     link: mailto:herdiagusthio@gmail.com
     newLine: true
   - text: <span class="iconify" data-icon="tabler:phone"></span> (+62) 812-1840-0369
-  - text: <span class="iconify" data-icon="tabler:brand-github"></span> herdiagusthio
+  - text: <span class="iconify" data-icon="tabler:brand-github"></span> github.com/herdiagusthio
     link: https://github.com/herdiagusthio
-  - text: <span class="iconify" data-icon="tabler:brand-linkedin"></span> herdiagusthio
+    newLine: true
+  - text: <span class="iconify" data-icon="tabler:brand-linkedin"></span> linkedin.com/in/herdiagusthio
     link: https://www.linkedin.com/in/herdiagusthio/
 ---
 
 ## Professional Summary
-Software Engineer with 8+ years of experience architecting and scaling backend systems in high-volume e-commerce and logistics environments. Proven expertise in Golang, large-scale cloud migrations, and system modernization. Formerly at Tokopedia/GTL, now at ByteDance, passionate about building modular, secure, and cost-efficient services that deliver measurable business impact.
+Backend Software Engineer with ~10 years of experience (Go since 2021) in payments, e-commerce and logistics. At Flip I build bill-payment, partner-integration and cashback services; previously led cloud migrations at ByteDance (up to **82%** cost reduction) and inventory systems at Tokopedia for **1,500+** sellers.
 
 ## Core Skills
-**Languages**: Go  
-**Infrastructure & Technologies**: PostgreSQL, MySQL NSQ, Redis, CI/CD, Docker  
-**Engineering Practices**: System Architecture & Refactoring, Agile Methodologies  
-
-## Selected Achievements
-- Achieved up to **82.01%** infrastructure cost reduction by leading the migration of critical warehouse services from GCP to ByteCloud.
-- Provided **1500+** sellers with real-time inventory visibility by leading the development of a self-service reporting feature, eliminating a 1-day SLA.
-- Improved GIMS data processing to achieve **>99.9%** accuracy and reduce manual effort by **80%**.
+**Languages**: Go, SQL  
+**Data & Messaging**: PostgreSQL, MySQL, Redis, Google Pub/Sub, NSQ  
+**Infrastructure**: GCP, Kubernetes, Docker, Terraform, GitLab CI, ArgoCD, Airflow, Prometheus, Grafana  
+**Backend & Payments**: Microservices, payment integrations, idempotency, reconciliation, TDD, Claude Code  
 
 ## Experience
-**ByteDance**, Jakarta <span class="float-right"> May 2024 – Present</span>  
+**Flip**, Jakarta <span class="float-right"> Jan 2026 – Present</span>  
 **Software Engineer (Backend)**
-- As Service Owner, spearheaded the end-to-end migration of critical warehouse services from GCP to ByteCloud, achieving infrastructure cost reductions of **58.11%** and **82.01%** for key applications.
-- Directed the assessment, code re-architecture, and execution for all migrations, ensuring **100% successful** cutovers in both staging and production environments.
-- Initiated the implementation of Hertz clients for warehouse services, laying the foundational architecture for future performance enhancements and removal of the transit-proxy.
+- Rebuilt postpaid bill payments (utilities, insurance, telco, internet) on a new Go microservice platform across ordering, billing and partner services, with PII masking and input validation; now covers **200+ bill providers**.
+- Built a payment-partner integration service from scratch as primary author (idempotent transactions, status checks, callbacks, catalog sync) with a **zero-downtime** cutover; its volume grew **~6x** in five months.
+- Shipped subsidized cashback for zero-commission products by adding targeting rules to a campaign engine; its A/B test showed a **double-digit conversion lift** at a fraction of projected cost before full rollout.
+- Migrated two high-traffic customer features off the PHP monolith (feature-flagged cutover, batch backfill); together they serve **millions of requests per month**.
+- Strengthened money correctness: automated settlement and reconciliation for a new partner, ran a partner reconciliation audit that flagged discrepancies, and root-caused pricing anomalies while on call.
+- Built an AI agent workflow on Claude Code (knowledge base covering **17** services, review gates, internal tooling) and shipped **~400** merged MRs across **27** repositories in 10 months.
 
-**Tokopedia / GOTO Logistics (GTL)**, Jakarta <span class="float-right"> Jan 2021 – May 2024</span>  
+**ByteDance**, Jakarta <span class="float-right"> May 2024 – Oct 2025</span>  
 **Software Engineer (Backend)**
-- As Project PIC, led the "Inventory Tracking" project, providing 1500+ sellers with instant, self-service visibility into non-sellable stock and eliminating the previous 1-day SLA.
-- Implemented inbound data differentiation in the DSI project, improving seller visibility and contributing to a potential monthly revenue increase of **~70 million IDR** from more accurate storage fees.
-- Enhanced GTL Inventory Management System (GIMS) data processing by validating Airflow pipelines and building a secure internal endpoint, achieving **>99.9%** data accuracy and reducing manual effort by **80%**.
+- As service owner, led the end-to-end migration of critical warehouse services from GCP to ByteDance's in-house cloud, cutting infrastructure cost **58%** and **82%** on key applications.
+- Directed assessment, re-architecture and execution of every migration, with **100% successful** cutovers.
+- Initiated Hertz (Go HTTP) clients for warehouse services, laying the groundwork to remove a proxy hop.
+
+**Tokopedia / GoTo Logistics (GTL)**, Jakarta <span class="float-right"> Jan 2022 – May 2024</span>  
+**Software Engineer (Backend)**
+- Led inventory tracking giving **1,500+** sellers self-service views of non-sellable stock, removing a 1-day SLA.
+- Implemented inbound data differentiation, contributing to a potential **~70M IDR**/month storage-fee gain.
+- Raised inventory data accuracy to **>99.9%** and cut manual effort **80%** via Airflow checks and a secure endpoint.
 
 **Nusantara Baskara Jaya**, Jakarta <span class="float-right"> Nov 2016 – Dec 2021</span>  
 **Backend Web Developer**
-- Developed and maintained multiple web applications for Telkomsel clients using Ruby on Rails, Laravel, and CodeIgniter.
-- Integrated BNI payment gateway for the "I Loop Run 2019" event.
-- Engineered and launched a secure login with OTP via email for the Ilmupedia platform.
+- Built and maintained web applications for Telkomsel clients using Ruby on Rails, Laravel and CodeIgniter.
+- Integrated the BNI payment gateway for a 2019 running event.
 
 ## Education
 
-**Alterra Academy** – Advancing Career Program, Backend Golang <span class="float-right">1 Oct 2021 - 31 Oct 2021</span>  
-**Bogor Agricultural University (IPB)** – Bachelor of Computer Science <span class="float-right">Sept 2011 – Feb 2016</span>
+**Alterra Academy** – Advancing Career Program, Backend Golang <span class="float-right">Oct 2021</span>  
+**Bogor Agricultural University (IPB)** – Bachelor of Computer Science <span class="float-right">Sep 2011 – Feb 2016</span>
