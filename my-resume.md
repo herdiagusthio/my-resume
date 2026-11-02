@@ -17,7 +17,7 @@ header:
 Backend Software Engineer with ~10 years of experience (Go since 2021) in payments, e-commerce and logistics. At Flip I build bill-payment, partner-integration and cashback services; previously led GCP-to-ByteCloud migrations at ByteDance (up to **82%** cost reduction) and inventory systems at Tokopedia for **1,500+** sellers.
 
 ## Core Skills
-**Languages**: Go, SQL, PHP  
+**Languages**: Go, SQL  
 **Data & Messaging**: PostgreSQL, MySQL, Redis, Google Pub/Sub, NSQ  
 **Infrastructure**: GCP, Kubernetes, Docker, ArgoCD, GitLab CI, Terraform, Airflow, Grafana, Prometheus  
 **Practices**: Payment integrations, reconciliation, monolith migration, TDD, AI-assisted development (Claude Code)  
