@@ -7,6 +7,7 @@ header:
     link: mailto:herdiagusthio@gmail.com
     newLine: true
   - text: <span class="iconify" data-icon="tabler:phone"></span> (+62) 812-1840-0369
+  - text: <span class="iconify" data-icon="tabler:map-pin"></span> Jakarta, Indonesia
   - text: <span class="iconify" data-icon="tabler:brand-github"></span> github.com/herdiagusthio
     link: https://github.com/herdiagusthio
     newLine: true
@@ -15,7 +16,7 @@ header:
 ---
 
 ## Professional Summary
-Backend Software Engineer with ~10 years of experience (Go since 2021) in payments, e-commerce and logistics. At Flip I build bill-payment, partner-integration and cashback services; previously led cloud migrations at ByteDance (up to **82%** cost reduction) and inventory systems at Tokopedia for **1,500+** sellers.
+Backend Software Engineer with ~10 years of experience (Go since 2021) in payments, e-commerce and logistics. At Flip I build bill-payment, partner-integration and cashback services; previously led cloud migrations at ByteDance (up to **82%** cost reduction) and built inventory systems at Tokopedia for **1,500+** sellers.
 
 ## Core Skills
 **Languages**: Go, SQL  
@@ -26,12 +27,12 @@ Backend Software Engineer with ~10 years of experience (Go since 2021) in paymen
 ## Experience
 **Flip**, Jakarta <span class="float-right"> Jan 2026 – Present</span>  
 **Software Engineer (Backend)**
-- Rebuilt postpaid bill payments (utilities, insurance, telco, internet) on a new Go microservice platform across ordering, billing and partner services, with PII masking and input validation; now covers **200+ bill providers**.
-- Built a payment-partner integration service from scratch as primary author (idempotent transactions, status checks, callbacks, catalog sync) with a **zero-downtime** cutover; its volume grew **~6x** in five months.
+- Rebuilt postpaid bill payments (utilities, insurance, telco, internet) on Go microservices across ordering, billing and partner services, with PII masking and input validation; now covers **200+ bill providers**.
+- Built a payment-partner integration service from scratch as primary author (idempotent transactions, status checks, callbacks, catalog sync) with a backward-compatible cutover; its volume grew **~6x** in five months.
 - Shipped subsidized cashback for zero-commission products by adding targeting rules to a campaign engine; its A/B test showed a **double-digit conversion lift** at a fraction of projected cost before full rollout.
 - Migrated two high-traffic customer features off the PHP monolith (feature-flagged cutover, batch backfill); together they serve **millions of requests per month**.
-- Strengthened money correctness: automated settlement and reconciliation for a new partner, ran a partner reconciliation audit that flagged discrepancies, and root-caused pricing anomalies while on call.
-- Built an AI agent workflow on Claude Code (knowledge base covering **17** services, review gates, internal tooling) and shipped **~400** merged MRs across **27** repositories in 10 months.
+- Strengthened money correctness: automated settlement and reconciliation for a new partner, audited affiliate commission data to flag discrepancies, and root-caused pricing anomalies while on call.
+- Built an AI agent workflow on Claude Code (knowledge base covering **17** services, review gates, internal tooling) and shipped **~400** merged MRs (code and deployments) across **27** repositories in 10 months.
 
 **ByteDance**, Jakarta <span class="float-right"> May 2024 – Oct 2025</span>  
 **Software Engineer (Backend)**
@@ -41,7 +42,7 @@ Backend Software Engineer with ~10 years of experience (Go since 2021) in paymen
 
 **Tokopedia / GoTo Logistics (GTL)**, Jakarta <span class="float-right"> Jan 2022 – May 2024</span>  
 **Software Engineer (Backend)**
-- Led inventory tracking giving **1,500+** sellers self-service views of non-sellable stock, removing a 1-day SLA.
+- Led self-service visibility into non-sellable stock for **1,500+** sellers, replacing a 1-day wait with instant access.
 - Implemented inbound data differentiation, contributing to a potential **~70M IDR**/month storage-fee gain.
 - Raised inventory data accuracy to **>99.9%** and cut manual effort **80%** via Airflow checks and a secure endpoint.
 
